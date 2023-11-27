@@ -1,0 +1,5 @@
+Info:	2023/11/27 11:35:55 condition.go:5: Начало работы приложения
+Info:	2023/11/27 11:35:55 condition.go:5: Запустил логгер в папке "logs"
+Info:	2023/11/27 11:35:55 condition.go:5: Успешно прочитан файл data.json
+Info:	2023/11/27 11:35:55 condition.go:5: Сумма всех чисел в массиве: 6
+Info:	2023/11/27 11:35:56 condition.go:5: Успешно выполнен запрос по ссылке https://www.massimodutti.com/itxrest/2/catalog/store/34009471/30359503/category/0/product/27185784/detail?languageId=-1&appId=1

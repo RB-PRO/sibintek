@@ -1,0 +1,7 @@
+Info:	2023/11/27 13:26:11 condition.go:6: Настройка флагов: {inputMode:false dataInput:data.json outputFile:output.txt configFile:config.json logsFile:logs/}
+Info:	2023/11/27 13:26:11 condition.go:6: Запустил логгер в папке "logs/"
+Info:	2023/11/27 13:26:11 condition.go:6: Прочитал конфиг из файла "config.json"
+Info:	2023/11/27 13:26:11 condition.go:6: Начало работы приложения
+Info:	2023/11/27 13:26:11 condition.go:6: Успешно прочитаны данные: data.json
+Info:	2023/11/27 13:26:11 condition.go:6: Сумма всех чисел в массиве: 6
+Info:	2023/11/27 13:26:11 condition.go:6: Успешно выполнен запрос по ссылке https://www.massimodutti.com/itxrest/2/catalog/store/34009471/30359503/category/0/product/27185784/detail?languageId=-1&appId=1

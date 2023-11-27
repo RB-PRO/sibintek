@@ -34,7 +34,7 @@ func New(ZeroDirection string) (*Core, error) {
 
 	// Проверка существования папки
 	if _, err := os.Stat(ZeroDirection); os.IsNotExist(err) {
-		return nil, fmt.Errorf("folder '%s' does not exist", ZeroDirection)
+		return &Core{}, fmt.Errorf("folder '%s' does not exist", ZeroDirection)
 	}
 
 	// Путь до файла с логами

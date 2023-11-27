@@ -32,3 +32,11 @@ func ReadJsonInts(FileName string) (data []int, Err error) {
 	}
 	return data, nil
 }
+
+// Парсинг строки в []int
+func UnmarshalInts(input string) (data []int, Err error) {
+	if Err = json.Unmarshal([]byte(input), &data); Err != nil {
+		return nil, fmt.Errorf("json.Unmarshal: %v", Err)
+	}
+	return data, nil
+}
